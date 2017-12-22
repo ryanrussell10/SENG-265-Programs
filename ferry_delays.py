@@ -16,11 +16,6 @@ import csv
 import sys
 import os
 
-# NOTE: I understand the complications that can occur by using global variables and 
-# would normally never use any. In this case, I was (before changing it for this version) making
-# assumptions about the file name and needed to get the month from one of the columns of the 
-# csv file, but couldn't return two values from the delay_calculator function, so I believe that
-# using global variable was required to avoid completely changing my implementation.
 month = ""  
 
 # The delay_calculator function takes an input file and the name of the terminal for which the user
